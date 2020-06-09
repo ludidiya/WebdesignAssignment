@@ -1,0 +1,54 @@
+		.container{
+			width: 1170px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 15px;
+			padding-left: 15px;
+		}
+
+
+		h2{
+			font-family: 'optima',sans-serif;
+			font-size: 30px;
+			font-weight: bold;
+			text-align: left;
+		}
+
+		p.featureTable{
+			font-family: 'optima', sans-serif;
+			font-size: 15px;
+			line-height: 40px;
+			text-align: left;
+		}
+
+		.inbox {
+			width: 100%;
+  			max-width: 560px;
+  			margin: 2px 288px 60px auto;
+  			background: #dddddd;
+  			border-radius: 5px;
+  			box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+  		}
+
+
+  		.item {
+			display: flex;
+  			align-items: center;
+ 			border-bottom: 1px solid #fff;
+ 			height: 35px;
+ 		}
+ 		.item:last-child {
+  			border-bottom: 0;
+  		}
+
+
+  		input:checked + p {
+  			color: red;
+  			text-align: center;
+  		}
+
+
+  		input[type="checkbox"] {
+  			margin: 20px;
+  		}
+

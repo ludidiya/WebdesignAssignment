@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>CompLib</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="stats_Feature.css">
+
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+
+		body{
+			text-align: center;
+			height: 100vh;
+			width: 100%;
+			font-size: 18px;
+		
+		}
+
+		div{
+			display: block;
+		}
+
+		.container{
+			width: 1170px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-left: 15px;
+			padding-left: 15px;
+		}
+
+
+		h1{
+			font-family: 'impact', sans-serif;
+			font-size: 3em;
+			font-weight: bold;
+			text-align: center;
+		}
+
+
+		h2{
+			font-family: 'optima',sans-serif;
+			font-size: 22px;
+			font-weight: bold;
+			text-align: left;
+		}
+
+		p{
+			font-family: 'optima', sans-serif;
+			font-size: 16px;
+			line-height: 30px;
+			text-align: left;
+		}
+
+
+		.nav {
+			padding-left: 0;
+    		display: inline-flex;
+    		position: relative;
+    		max-width: 100%;
+    		background: #34495e;
+    		padding: 1 100px;
+    		border-radius: 40px;
+    		box-shadow: 0 10px 40px rgba(159,162,177,.8);
+    		margin-bottom: 0;
+    		list-style: none;
+    	}
+
+    	.nav-tabs{
+			color: #fff;
+   			padding: 20px 300px;
+   			text-decoration: none;
+   			transition: 0.3s;
+   			margin: 0 10px;
+   			z-index: 1;
+   			font-family: 'optima', sans-serif;
+   			font-weight: 700;
+   			position: relative;
+		}
+
+
+		a{
+			color: #fff;
+			font-family: 'optima', sans-serif;
+			font-weight: 700;
+			padding-left: 15px;
+			padding-right: 20px;
+		}
+
+		a.contentInd{
+			color: red;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+
+		li{
+			padding: 20 30px;
+			width: 200px;
+		}
+
+		
+		ul.b {
+			list-style-type:square;
+			text-align: left;
+			font-family: "optima", sans-serif;
+			font-size: 15px;
+		}
+
+		ul.b li{
+			white-space: nowrap;
+		}
+
+		table {
+			width: 80%;
+    		font-family: optima, sans-serif;
+  			border-collapse: collapse;
+  			font-size: 14px;
+  			border-collapse: collapse;
+  		}
+
+  		table thead{
+  			background:#34495e;
+  		}
+
+		table thead th{
+			color:white;
+			border: 1px solid #dddddd;
+			color: #FFF;
+  			text-align: center;
+  			padding: 2px;
+		}
+
+		td {
+  			border: 1px solid #dddddd;
+  			text-align: center;
+  			padding: 2px;
+		}
+
+
+		tr:nth-child(even) {
+			background-color: #dddddd;
+		}
+
+		div.correlation-left{
+			background-color: #EEEEEE;
+    		height: 450px;
+    		width: 500px;
+    		float: left;
+    		text-align: left;
+    		font-family: optima,sans-serif;
+    		font-size: 15px;
+    		line-height: 30px;
+    		padding: 15px 39px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div>
+		<!--begin of title-->
+		<h1 align="center">
+			<span>
+				<img src="images/login.png" align="center" style="width: 88px;height: 88px; margin: -18px 20px 1px 10px;" alt="logo">
+				<b style="padding:0 30px">COMPLIB</b>
+			</span>
+		</h1>
+		</div>
+		<!--end of title-->
+
+		<div class="orient">
+		<ul class="nav  nav-tabs">
+			<li><a href="Home.php">HOME</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Stats <span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="Manufacture.php">Manufacturers</a></li>
+					<li class="divider"></li>
+					<li><a href="Feature_Statis_display.php">Features</a></li>
+					<li class="divider"></li>
+					<li><a href="correlation.php">Correlations</a></li>
+				</ul>
+			</li>
+
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Search <span class="caret"></span>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="Compound_select.php">Compounds</a></li>
+					<li class="divider"></li>
+					<li><a href="Property_select.php">Proporty</a></li>
+					<li class="divider"></li>
+					<li><a href="catName_search.php">catName</a></li>
+
+				</ul>
+			</li>
+			<li><a href="help.php">Tutorial</a></li>
+			<li><a href="logout.php">Log out</a></li>
+		</ul>
+		</div>
+
+	<br>
+	<br>
+
+	</div>
+	
+	<script type="text/javascript" src="snake.js"></script>
+
+
+
+</body>
+</html>
+
